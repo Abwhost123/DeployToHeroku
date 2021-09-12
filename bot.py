@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-tkn = "Your Bot Token"
+tkn = "1995322138:AAHdFhlgAYiKFOQTrwQRHkuyybKrFMoIEPw"
 updater = Updater(tkn,use_context=True)
 bot = Bot(tkn)
 dispatcher : Dispatcher = updater.dispatcher
